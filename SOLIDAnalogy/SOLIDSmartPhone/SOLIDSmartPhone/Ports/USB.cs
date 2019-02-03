@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SOLIDSmartPhone.Ports
 {
-    class USB
+    public class USB
     {
     }
 }

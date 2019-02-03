@@ -42,11 +42,37 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Camera\ImageProcessor.cs" />
+    <Compile Include="Camera\Lens.cs" />
+    <Compile Include="Camera\Sensor.cs" />
+    <Compile Include="Display\IDisplay.cs" />
+    <Compile Include="Storage\IExternalMemory.cs" />
+    <Compile Include="Storage\MemoryCard.cs" />
+    <Compile Include="Storage\IInternalMemory.cs" />
+    <Compile Include="Storage\RAM.cs" />
+    <Compile Include="Storage\SystemMemory.cs" />
+    <Compile Include="Ports\Audio.cs" />
+    <Compile Include="Ports\USB.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sensor\Accelerometer.cs" />
+    <Compile Include="Sensor\AmbientLightSensor.cs" />
+    <Compile Include="Sensor\DigitalCompass.cs" />
+    <Compile Include="Sensor\Gyroscope.cs" />
+    <Compile Include="Sensor\Proximity.cs" />
+    <Compile Include="SmartPhone.cs" />
+    <Compile Include="SystemOnChip\CPU.cs" />
+    <Compile Include="SystemOnChip\DisplayProcessor.cs" />
+    <Compile Include="SystemOnChip\ISystemOnChip.cs" />
+    <Compile Include="SystemOnChip\Modem.cs" />
+    <Compile Include="SystemOnChip\VideoProcessor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Battery\" />
+    <Folder Include="Microphone\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

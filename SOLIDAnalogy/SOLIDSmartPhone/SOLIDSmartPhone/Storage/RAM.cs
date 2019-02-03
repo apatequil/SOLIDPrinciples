@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SOLIDSmartPhone.Memory
+namespace SOLIDSmartPhone.Storage
 {
-    interface IMemory
+    //LPDDR3
+    //LPDDR4
+    //LPDDR4X RAM
+    public class RAM: IInternalMemory
     {
     }
 }

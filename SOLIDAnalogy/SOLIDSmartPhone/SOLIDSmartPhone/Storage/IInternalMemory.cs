@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SOLIDSmartPhone.Camera
+namespace SOLIDSmartPhone.Storage
 {
-    public class Lens
+    public interface IInternalMemory
     {
     }
 }

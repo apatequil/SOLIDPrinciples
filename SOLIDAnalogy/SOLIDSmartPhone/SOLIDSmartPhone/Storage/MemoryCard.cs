@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SOLIDSmartPhone.Memory
+namespace SOLIDSmartPhone.Storage
 {
-    class SystemMemory
+    class MemoryCard: IExternalMemory
     {
     }
 }

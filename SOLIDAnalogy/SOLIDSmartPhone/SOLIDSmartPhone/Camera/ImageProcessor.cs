@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SOLIDSmartPhone.Camera
 {
-    class ImageProcessor
+    public class ImageProcessor
     {
     }
 }
